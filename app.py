@@ -21,7 +21,7 @@ st.title("Flower Classification")
 st.title(" ")
 
 
-uploaded_file = st.file_uploader("Choose an image...", type="jpg")
+uploaded_file = st.file_uploader("Choose an image...")
 if uploaded_file is not None:
 
         image = Image.open(uploaded_file)
