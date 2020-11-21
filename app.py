@@ -21,7 +21,14 @@ st.title("Flower Classification")
 st.title(" ")
 
 
-uploaded_file = st.file_uploader("Choose an image...")
+st.subheader('Upload image of Sunflower,Daisy,Dandelion,Roses  ,Sunflowers  or  Tulips')
+
+st.title(" ")
+st.title(" ")
+
+
+
+uploaded_file = st.file_uploader(".")
 if uploaded_file is not None:
 
         image = Image.open(uploaded_file)
